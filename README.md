@@ -160,12 +160,18 @@ Multer
 shortid
 
 🙋‍♂️ Author
+
 Shubham Sarode
-🔗 Portfolio
+
+🔗 Portfolio: https://shubh435.github.io/
+
 📧 shubhamsarode435@gmail.com
+
 🔗 LinkedIn: https://www.linkedin.com/in/shubh435/
+
 🔗 GitHub: https://github.com/shubh435
-📄 License
+
+
 This project is licensed under the MIT License.
 
 🌟 Support
