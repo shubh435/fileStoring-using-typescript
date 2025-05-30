@@ -18,6 +18,7 @@ A simple and extensible backend API built with **Express.js**, **TypeScript**, a
 ## 🗂️ Project Structure
 
 fileStoring-using-typescript/
+```
 ├── controller/ # Handles request logic
 │ └── filesStorer.ts
 ├── model/ # Mongoose schema for storing files
@@ -31,7 +32,7 @@ fileStoring-using-typescript/
 ├── index.ts # Application entry point
 └── package.json
 
-
+```
 ---
 
 ## ⚙️ Installation & Setup
