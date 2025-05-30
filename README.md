@@ -163,7 +163,7 @@ shortid
 Shubham Sarode
 🔗 Portfolio
 📧 shubhamsarode435@gmail.com
-🔗 LinkedIn
+🔗 LinkedIn (https://www.linkedin.com/in/shubh435/)
 📄 License
 This project is licensed under the MIT License.
 
