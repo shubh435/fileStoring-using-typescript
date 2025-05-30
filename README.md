@@ -1,4 +1,4 @@
-# 📁 File Storing API using TypeScript
+[filestorercollection.json](https://github.com/user-attachments/files/20517647/filestorercollection.json)# 📁 File Storing API using TypeScript
 
 A simple and extensible backend API built with **Express.js**, **TypeScript**, and **MongoDB** for handling file uploads, storing them locally, and saving file metadata to a database. Users can upload, retrieve, and manage multiple files through RESTful endpoints.
 
@@ -173,6 +173,87 @@ If you like this project, give it a ⭐ on GitHub and share it with others!
 
 
 ---
+[Uploading filestorercollection.{
+	"info": {
+		"_postman_id": "e57b665c-5bb2-4ccd-bafb-b0777b897022",
+		"name": "News Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20860135"
+	},
+	"item": [
+		{
+			"name": "upload files",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "test files",
+							"type": "text"
+						},
+						{
+							"key": "files",
+							"type": "file",
+							"src": [
+								"postman-cloud:///1f03c7f8-beb1-4d40-ad42-ce0c582d04fd",
+								"/Users/ext-hyd-lap-058/Downloads/file_example_MP3_700KB.mp3",
+								"/Users/ext-hyd-lap-058/Downloads/m6.jpeg",
+								"/Users/ext-hyd-lap-058/Downloads/m8.jpeg",
+								"/Users/ext-hyd-lap-058/Downloads/Screenshot 2025-05-22 132311.png"
+							]
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/files/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"files",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get file by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/files/68396374589e5f457ba4bfb3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"files",
+						"68396374589e5f457ba4bfb3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllFiles",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}json…]()
 
 Let me know if you'd like to:
 
