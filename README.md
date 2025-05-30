@@ -1,4 +1,4 @@
-[filestorercollection.json](https://github.com/user-attachments/files/20517647/filestorercollection.json)# 📁 File Storing API using TypeScript
+# 📁 File Storing API using TypeScript
 
 A simple and extensible backend API built with **Express.js**, **TypeScript**, and **MongoDB** for handling file uploads, storing them locally, and saving file metadata to a database. Users can upload, retrieve, and manage multiple files through RESTful endpoints.
 
@@ -39,7 +39,7 @@ fileStoring-using-typescript/
 
 ### 1. Clone the repository
 
-```bash
+
 git clone https://github.com/shubh435/fileStoring-using-typescript.git
 cd fileStoring-using-typescript
 
@@ -143,7 +143,7 @@ Test all APIs using the provided Postman collection:
 
 ✅ Get all files
 
-🔗 Download filestorercollection.json and import it into Postman
+🔗 Download [filestorercollection.json](https://github.com/user-attachments/files/20517647/filestorercollection.json) and import it into Postman
 🧱 Built With
 Node.js
 
@@ -171,6 +171,12 @@ This project is licensed under the MIT License.
 🌟 Support
 If you like this project, give it a ⭐ on GitHub and share it with others!
 
+Let me know if you'd like to:
+
+- Add screenshots of Postman tests or folder structure
+- Add Swagger API documentation
+
+I can help with all of those!
 
 ---
 [Uploading filestorercollection.{
@@ -254,10 +260,3 @@ If you like this project, give it a ⭐ on GitHub and share it with others!
 		}
 	]
 }json…]()
-
-Let me know if you'd like to:
-
-- Add screenshots of Postman tests or folder structure
-- Add Swagger API documentation
-
-I can help with all of those!
